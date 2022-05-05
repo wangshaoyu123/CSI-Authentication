@@ -17,5 +17,5 @@ To evaluate the performance of the deep-learning-based authenticator, Quasi-Dete
 ## Training
 Train a model with a confidence score branch with `train.py`. Training logs will be stored in the logs/ folder, while checkpoints are stored in the checkpoints/ folder.  We use VGG11 added with a confidence score branch to evaluate the proposed scheme. The authenticator is trained using stochastic gradient descent, with Nesterov momentum of 0.9. We train the authenticator for 36 epochs with a batch size of 180 and a weight decay of 2e-4. The initial learning rate is 0.1 and reduced by a factor of 5× after the 6th, 12th, 18th, 24th, 30th epochs.
 
-## Anomaly_detection
+## Anomaly Detection
 Evaluate a trained model with `anomaly_detection.py`. False alarm rate (FAR), miss detection error (MDR), detection error (DE), accuracy (ACC), macro-averaged F1 score (Macro F1-score), confidence scores density distribution, confusion matrix are automatically saved.
