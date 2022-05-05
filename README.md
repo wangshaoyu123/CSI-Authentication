@@ -11,7 +11,7 @@ Pillow<br>
 scikit-learn<br>
 
 ## Dataset
-Channel_ind.mat in folder "data" is the legitimate CSI samples dataset. Channel_ood.mat in folder "data" is the illegitimate CSI samples dataset. Channel_10percent.mat, Channel_30percent.mat and Channel_60percent.mat are legitimate CSI samples datasets with no channel estimation error, 10% channel estimation error, 30% channel estimation error and 60% channel estimation error, respectively. <br>
+'channel_ind.mat' in folder 'data' is the legitimate CSI samples dataset. 'channel_ood.mat' in folder 'data' is the illegitimate CSI samples dataset. 'channel_10percent.mat', 'channel_30percent.mat' and 'channel_60percent.mat' are legitimate CSI samples datasets with no channel estimation error, 10% channel estimation error, 30% channel estimation error and 60% channel estimation error, respectively. <br>
 To evaluate the performance of the deep-learning-based authenticator, Quasi-Deterministic Radio Channel Generator (QuaDRiGa) is used to simulate multipath fading channels and obtain CSI data. QuaDRiGa generates realistic radio channel impulse responses for system-level simulations. We randomly select 10 legitimate devices with different positions for the training dataset and sampled 5000 CSI images for each device. For the test dataset, each legitimate device samples 1000 CSI images, and 10 illegitimate devices are randomly selected and each with 1000 CSI images.
 
 ## Training
