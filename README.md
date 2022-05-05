@@ -16,3 +16,6 @@ To evaluate the performance of the deep-learning-based authenticator, Quasi-Dete
 
 ## Training
 Train a model with a confidence score branch with `train.py`. Training logs will be stored in the logs/ folder, while checkpoints are stored in the checkpoints/ folder.  
+
+## anomaly_detection
+Evaluate a trained model with `anomaly_detection.py`.
