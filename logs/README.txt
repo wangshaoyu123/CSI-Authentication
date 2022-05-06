@@ -1,0 +1,1 @@
+Training logs will be stored in the logs/ folder.
